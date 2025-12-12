@@ -1,0 +1,12 @@
+#include "cooperative_transportation_4ws_backstepping/kinematics_solver.hpp"
+#include "cooperative_transportation_4ws_backstepping/initial.hpp"
+#include "cooperative_transportation_4ws_backstepping/mathFunc.h"
+#include <array>
+#include <iostream>
+
+double KinematicsSolver::calc_pd_alpha3_pd_X_2_5_()
+{
+double ret;
+ret = ((1 - c(s(t))*d(t))*Sec(phi1(t))*Sec(thetap0(t))*Sin(phi1(t) - thetap0(t) + thetap1(t)))/l1 + (Cos(phi1(t) - thetap0(t) + thetap1(t))*(1 - c(s(t))*d(t))*Sec(phi1(t))*Sec(thetap0(t))*Tan(thetap0(t)))/l1;
+return ret;
+}
