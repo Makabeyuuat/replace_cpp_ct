@@ -2246,7 +2246,27 @@ Derivative(List(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0))(alpha1212)(List(
 Derivative(List(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1))(alpha1212)(List(s(t),d(t),thetap0(t),phi1(t),thetap1(t),phi2(t),thetap2(t),phi3(t),thetap3(t),phi4(t),thetap4(t),phi5(t),thetap5(t),phi6(t),thetap6(t),phi7(t),thetap7(t),phi8(t),thetap8(t),phi9(t),thetap9(t),phi10(t),thetap10(t)))/calc_pd_alpha12_pd_X_6_23_()
 
 
+Derivative(1)(dphi1)(t)/nu(2)
+Derivative(1)(dphi2)(t)/nu(3)
+Derivative(1)(dphi3)(t)/nu(4)
+Derivative(1)(dphi4)(t)/nu(5)
+Derivative(1)(dphi5)(t)/nu(6)
+Derivative(1)(dphi6)(t)/nu(7)
+Derivative(1)(dphi7)(t)/nu(8)
+Derivative(1)(dphi8)(t)/nu(9)
+Derivative(1)(dphi9)(t)/nu(10)
+Derivative(1)(dphi10)(t)/nu(11)
 
+dphi1(t)/u_kinematics(2)
+dphi2(t)/u_kinematics(3)
+dphi3(t)/u_kinematics(4)
+dphi4(t)/u_kinematics(5)
+dphi5(t)/u_kinematics(6)
+dphi6(t)/u_kinematics(7)
+dphi7(t)/u_kinematics(8)
+dphi8(t)/u_kinematics(9)
+dphi9(t)/u_kinematics(10)
+dphi10(t)/u_kinematics(11)
 phi1(t)/x_old[4]
 phi2(t)/x_old[6]
 phi3(t)/x_old[8]
@@ -2295,6 +2315,23 @@ Derivative(1)(thetap10)(t)/calc_SX_23_1_()*u_act(0)
 
 thetap(t)/Thetap
 thetat(t)/thetaT
+
+//sr変換
+c(s(t))/sr.Cs
+d(t)/sr.d
+Derivative(1)(c)(s(t))/sr.Cs1
+Derivative(2)(c)(s(t))/sr.Cs2
+
+
+Derivative(1)(delta1d)(t)/Ddelta1d
+Derivative(1)(delta2d)(t)/Ddelta2d
+Derivative(1)(delta3d)(t)/Ddelta3d
+Derivative(2)(delta1d)(t)/DDdelta1d
+Derivative(2)(delta2d)(t)/DDdelta2d
+Derivative(2)(delta3d)(t)/DDdelta3d
+delta1d(t)/delta1d
+delta2d(t)/delta2d
+delta3d(t)/delta3d
 
 
 
