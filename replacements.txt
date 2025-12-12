@@ -2288,6 +2288,7 @@ thetap7(t)/Thetap7
 thetap8(t)/Thetap8
 thetap9(t)/Thetap9
 thetap10(t)/Thetap10
+uThetap10/Thetap10
 Derivative(1)(s)(t)/calc_SX_1_1_()*u_act(0)
 Derivative(1)(d)(t)/calc_SX_2_1_()*u_act(0)
 Derivative(1)(thetap0)(t)/(calc_SX_3_1_()*u_act(0)+u_act(1))
@@ -2316,12 +2317,6 @@ Derivative(1)(thetap10)(t)/calc_SX_23_1_()*u_act(0)
 thetap(t)/Thetap
 thetat(t)/thetaT
 
-//sr変換
-c(s(t))/sr.Cs
-d(t)/sr.d
-Derivative(1)(c)(s(t))/sr.Cs1
-Derivative(2)(c)(s(t))/sr.Cs2
-
 
 Derivative(1)(delta1d)(t)/Ddelta1d
 Derivative(1)(delta2d)(t)/Ddelta2d
@@ -2329,6 +2324,9 @@ Derivative(1)(delta3d)(t)/Ddelta3d
 Derivative(2)(delta1d)(t)/DDdelta1d
 Derivative(2)(delta2d)(t)/DDdelta2d
 Derivative(2)(delta3d)(t)/DDdelta3d
+Derivative(3)(delta1d)(t)/DDDdelta1d
+Derivative(3)(delta2d)(t)/DDDdelta2d
+Derivative(3)(delta3d)(t)/DDDdelta3d
 delta1d(t)/delta1d
 delta2d(t)/delta2d
 delta3d(t)/delta3d
