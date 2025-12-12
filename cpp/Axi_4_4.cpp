@@ -1,0 +1,12 @@
+#include "cooperative_transportation_4ws_backstepping/kinematics_solver.hpp"
+#include "cooperative_transportation_4ws_backstepping/initial.hpp"
+#include "cooperative_transportation_4ws_backstepping/mathFunc.h"
+#include <array>
+#include <iostream>
+
+double KinematicsSolver::calc_Axi_4_4_()
+{
+double ret;
+ret = -Cos(phiF1(t) + theta1(t));
+return ret;
+}
