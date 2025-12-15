@@ -2498,7 +2498,7 @@ Derivative(1)(Pattern(ddotthetap10,Blank(d)))(t)/dddthetap10d
 
 
 a(t)/a0
-Derivative(1)(a)(t)/0
+Derivative(1)(a)(t)/0.0
 
 
 

@@ -1,12 +1,9 @@
-#include "cooperative_transportation_4ws_backstepping/kinematics_solver.hpp"
-#include "cooperative_transportation_4ws_backstepping/initial.hpp"
-#include "cooperative_transportation_4ws_backstepping/mathFunc.h"
-#include <array>
-#include <iostream>
+#include "../common.hpp"
+#include "../kinematics_solver.hpp"
 
-double KinematicsSolver::calc_z_5_2_()
+double KinematicsSolver::calc_Z_5_2_()
 {
 double ret;
-ret = thetap3(t);
+ret = Z52;
 return ret;
 }
