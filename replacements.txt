@@ -2552,5 +2552,10 @@ u11(t)/u11
 u12(t)/u12
 
 
+Derivative(1)(thetap4d)(t)/dthetap4d
+Derivative(2)(thetap4d)(t)/ddthetap4d
+thetap4d(t)/thetap4d
+
+
 
 
